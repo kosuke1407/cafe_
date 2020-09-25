@@ -51,6 +51,57 @@ INSERT INTO PE_PE
 	"c266a8d5-aa61-43f4-9d01-7e2baedb603e",
 	"00000000-0000-0000-0000-000000000000",
 	1);
+INSERT INTO S_SYNC
+	VALUES ("f8a0836b-2218-4ce1-9b8b-693e6ffdca94",
+	"00000000-0000-0000-0000-000000000000",
+	'delivery',
+	'',
+	'select any ctrl from instances of Controller;
+generate Controller3:''delivery'' to ctrl;',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	0);
+INSERT INTO PE_PE
+	VALUES ("f8a0836b-2218-4ce1-9b8b-693e6ffdca94",
+	1,
+	"c266a8d5-aa61-43f4-9d01-7e2baedb603e",
+	"00000000-0000-0000-0000-000000000000",
+	1);
+INSERT INTO S_SYNC
+	VALUES ("09787bcf-19d3-48ee-9a10-496fb2920d8c",
+	"00000000-0000-0000-0000-000000000000",
+	'clear',
+	'',
+	'select any ctrl from instances of Controller;
+generate Controller4:''clear'' to ctrl;',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	0);
+INSERT INTO PE_PE
+	VALUES ("09787bcf-19d3-48ee-9a10-496fb2920d8c",
+	1,
+	"c266a8d5-aa61-43f4-9d01-7e2baedb603e",
+	"00000000-0000-0000-0000-000000000000",
+	1);
+INSERT INTO S_SYNC
+	VALUES ("cdb55ebc-cc35-428b-b30e-2bc44d45219d",
+	"00000000-0000-0000-0000-000000000000",
+	'restart',
+	'',
+	'select any ctrl from instances of Controller;
+generate Controller5:''restart'' to ctrl;',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	0);
+INSERT INTO PE_PE
+	VALUES ("cdb55ebc-cc35-428b-b30e-2bc44d45219d",
+	1,
+	"c266a8d5-aa61-43f4-9d01-7e2baedb603e",
+	"00000000-0000-0000-0000-000000000000",
+	1);
 INSERT INTO PE_PE
 	VALUES ("c266a8d5-aa61-43f4-9d01-7e2baedb603e",
 	1,
