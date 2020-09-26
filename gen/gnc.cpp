@@ -474,6 +474,7 @@ void command_cb(const std_msgs::String::ConstPtr& msg)
 	if(msg->data == "delivery") Control_delivery();
 	else if(msg->data == "clear") Control_clear();
 	else if(msg->data == "restart") Control_restart();
+	else if(msg->data == "halt") Control_halt();
 }
 
 
